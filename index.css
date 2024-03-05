@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Mobile First approach */
+.header-container {
+    width: 100%;
+    height: auto;
+    margin: auto;
+    padding: 2rem 0;
+    /*can be removed with the introduction of the navigation bar */
+
+}
+
+.header-wrapper,
+.header-description,
+.partners-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.header-wrapper {
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+.header-information {
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    justify-content: flex-start;
+
+    width: 100%;
+
+}
+
+.header-image {
+    width: 100%;
+    margin: auto;
+    border: none;
+    border-radius: 14px;
+    overflow: hidden;
+    height: 50vh;
+}
+
+.header-image img {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+.header-description,
+.partners-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+}
+
+.header-description h2 {
+    font-size: 30px;
+
+}
+
+
+.header-title-large {
+    display: none;
+}
+
+.header-description p {
+    text-align: start;
+    line-height: 24px;
+}
+
+.header-description button {
+    border: none;
+    border-radius: 0.5rem;
+    padding: 0.8rem 1.6rem;
+    font-weight: 700;
+    background: #008080;
+    color: #f2f2f2;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.partners-wrapper h4 {
+    color: #a19f9f;
+    font-weight: 400;
+}
+
+.partners-wrapper .partners-logos-list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 1rem;
+    width: 100%;
+}
+
+.partners-wrapper .partners-logos-list li {
+    height: 38px;
+
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+.partners-wrapper .partners-logos-list li img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+    background-position: center;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+
+}
+
+.partners-wrapper .partners-logos-list li img:hover {
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0)
+}
+
+
+
+@media only screen and (min-width: 768px) {
+
+    .header-information {
+        height: 70vh;
+        gap: 2rem;
+    }
+
+    .header-image {
+        flex: 1;
+
+        height: 100%;
+    }
+
+    .header-description {
+        flex: 1;
+
+        padding: 0 2rem;
+
+    }
+
+    .header-description .header-title-large {
+        line-height: 56px;
+        font-size: 48px;
+    }
+
+    .partners-logos-list {
+        display: flex;
+        align-items: center;
+        justify-content: space-between !important;
+        gap: 1.5rem;
+
+        width: 100%;
+
+
+    }
+
+    .partners-wrapper .partners-logos-list li {
+        width: 100px !important;
+
+
+    }
+
+}
