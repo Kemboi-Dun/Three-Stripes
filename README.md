@@ -1,7 +1,7 @@
 ### Three Stripes Test
 ## Screenshots Preview
 + **Desktop Screenshot**
-![Screenshot of the Desktop implementation.](https://i.postimg.cc/RFdxBtGY/127-0-0-1-5500-Index-html-6.png)
+![Screenshot of the Desktop implementation.](https://i.postimg.cc/3JttXBbN/127-0-0-1-5500-Index-html-8.png)
 
 + **Tablet Screenshot**
 ![Screenshot of the Tablet implementation.](https://i.postimg.cc/y8yM9cC8/127-0-0-1-5500-Index-html-5.png)
